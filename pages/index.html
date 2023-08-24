@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <title>Assignment Browser</title>
+</head>
+<body>
+    <h1>Assignment Browser Py</h1>
+    <table>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Class</th>
+
+        %for row in rows:
+            <tr>
+                <td>{{row[0]}}</td>
+                <td>{{row[1]}}</td>
+                <td>{{row[2]}}</td>
+            </tr>
+        %end
+    </table>
+</body>
